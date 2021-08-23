@@ -86,7 +86,7 @@ input[type="button"]{
     padding: 10px;
 }
 .controlsBoxGrid span, .controlsBoxGrid kbd{
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 kbd {
