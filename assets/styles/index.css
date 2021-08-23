@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+html, body{
+    background-color: #14151F;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#toBeHidden{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 192px;
+}
+
+span{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size:x-large;
+}
+
+input[type="button"]{
+    background-color: #3C3F5D;
+    border: none;
+    padding: 1rem;
+    color:white;
+    font-family: 'Urbanist', sans-serif;
+    font-size: larger;
+}
+
+.playButton{
+    margin-top: 2rem;
+    background-color: #3C3F5D;
+    border: none;
+    padding: 1rem;
+    color:white;
+    font-family: 'Urbanist', sans-serif;
+    font-size: larger;
+    border-radius: 100px;
+    width: 4rem;
+    height: 4rem;
+    transition: background-color .1s ease-out;
+}
+
+.playButton:hover{
+    cursor: pointer;
+    background-color: #64699B;
+}
+
+.controlsBox{
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Urbanist', sans-serif;
+    color: white;
+    font-size: xx-large;
+    background-color: #33414B;
+    width: 400px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.controlsBox .heads{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 365px;
+}
+
+.controlsBoxGrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+.controlsBoxGrid span, .controlsBoxGrid kbd{
+    margin-bottom: 3rem;
+}
+
+kbd {
+    text-align: center;
+	margin-left: 3rem;
+	padding: 0.1em 0.6em;
+	border-radius: 3px;
+	border: 2px solid rgb(53, 53, 53);
+	color: rgb(98, 98, 98);
+	line-height: 1.4;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 20px;
+	display: inline-block;
+	box-shadow: 0px 1px 0px rgba(0,0,0,0.2), inset 0px 0px 0px 2px #292929;
+	background-color: rgb(42, 42, 42);
+	-moz-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #292929 inset;
+	-webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #292929 inset;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	text-shadow: 0 2px 0 rgb(70, 70, 70);
+}
+
+#closeControlsButton{
+    cursor: pointer;
+}
+#closeControlsButton:hover{
+    cursor: pointer;
+    color: #BBBBBB;
+}
