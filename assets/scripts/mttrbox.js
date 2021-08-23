@@ -11,10 +11,6 @@ function initGame(){
     // create an engine
     var engine = Engine.create();
 
-    var sound = new Howl({
-        src: ['./assets/audio/thud.wav']
-      });
-
     // create a renderer
     var render = Render.create({
         element: document.body,
